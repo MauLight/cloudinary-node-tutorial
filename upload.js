@@ -6,9 +6,9 @@ const cloudinary = require('cloudinary').v2;
 //////
 // Basic Upload Method
 //////
-cloudinary.uploader.upload("./assets/cat.jpg")
-	.then(result => {console.log(result)})
-	.catch(error => {console.log(error)});
+// cloudinary.uploader.upload("./assets/cat.jpg")
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 
 	
@@ -53,7 +53,7 @@ cloudinary.uploader.upload("./assets/cat.jpg")
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
-// cloudinary.uploader.upload("./assets/dog.jpg", {folder: "pets/my_favorite"})
+// cloudinary.uploader.upload("./assets/dog.jpg", {folder: "pets/my_favorite", use_filename: true, unique_filename: false})
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
